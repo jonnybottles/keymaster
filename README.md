@@ -10,6 +10,7 @@ paramiko library (pip install paramiko)
 ## Installation:
 
 Save the script as ssh_key_manager.py.
+```shell
 Install paramiko: pip install paramiko
 
 ## Usage:
