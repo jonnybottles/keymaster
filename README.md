@@ -1,7 +1,6 @@
-# keymaster
+# Key Master
 
-SSH Key Management Script
-This script helps you automate the process of generating an SSH key pair (if it doesn't already exist) and securely adding the public key to a remote server for passwordless login.
+Key Master is a simple Python script automates the process of generating an SSH key pair (if it doesn't already exist) and securely adding the public key to a remote server for passwordless login
 
 ## Requirements:
 
