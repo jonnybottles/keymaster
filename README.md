@@ -28,8 +28,7 @@ Password for the SSH server (Security Note: consider passwordless SSH login for 
 **Generates SSH Keys (if necessary):** Checks for an existing SSH key pair (id_rsa and id_rsa.pub) in your ~/.ssh directory. If not found, generates a new RSA key pair using ssh-keygen.
 **Connects to Server:** Establishes an SSH connection using paramiko. Automatically accepts the server's host key (Security Note: consider verifying the fingerprint manually for production environments).
 **Sends Public Key:** Reads the public key content and sends it to the server, appending it to the authorized_keys file on the remote server user's ~/.ssh directory.
-Provides Feedback: Displays success or failure messages based on the connection and key transfer.
-Security Considerations:
+**Provides Feedback:** Displays success or failure messages based on the connection and key transfer.
 
 ## Disclaimer
 
